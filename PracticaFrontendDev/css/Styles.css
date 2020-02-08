@@ -1,4 +1,9 @@
 .bg-udem{
-
     background-color: #BA0F16;
+}
+
+li:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 5px;
 }
