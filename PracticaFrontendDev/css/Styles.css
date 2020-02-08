@@ -7,3 +7,8 @@ li:hover{
     color: #000000;
     border-radius: 5px;
 }
+
+.jumbotron {
+    background-image: url("/PracticaFrontendDev/images/banner.jpg");
+    background-size: cover;
+  }
