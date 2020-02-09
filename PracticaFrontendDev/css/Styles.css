@@ -1,4 +1,7 @@
 .bg-udem{
+    background-color:#BA0F16;
+}
 
-    background-color: #BA0F16;
+li:hover{
+    background: azure;
 }
