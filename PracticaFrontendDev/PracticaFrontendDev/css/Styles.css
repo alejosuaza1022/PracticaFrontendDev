@@ -101,7 +101,6 @@ footer a {
 .social-pet li:nth-child(4) a {
     background-color: #6b27b2;
 }
-<<<<<<< HEAD
 
 section{
     width: 100%;
@@ -194,7 +193,6 @@ section{
     background-color: #BA0F16 ;
     padding: 8%;
 }
-=======
 .social-pet li a:hover {
     background-color: #0141a2;
 }
@@ -238,4 +236,3 @@ footer .input-group-addon {
 font-size:14px;
 }
 
->>>>>>> c6b4dc868ca885a06d5cf2a4b25b5ddf99a11f32
