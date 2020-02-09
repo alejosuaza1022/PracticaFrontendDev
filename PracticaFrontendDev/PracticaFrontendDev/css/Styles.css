@@ -21,6 +21,11 @@ li:hover{
     font-size: 25px;
 }
 
+footer{
+    background-color: #BA0F16;
+    color: #FFFFFF;
+}
+
 
 .nav-link{
     font-size: 20px;
