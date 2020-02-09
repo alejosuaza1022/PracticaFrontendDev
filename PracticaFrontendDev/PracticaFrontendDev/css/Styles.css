@@ -2,20 +2,37 @@
     background-color:#BA0F16;
 }
 
-li:hover{
-    background: rgb(238, 36, 36);
-    border-radius: 10px;
-    
-
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
 }
+
+li:hover{
+    border-radius: 5px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+footer{
+    background-color: #BA0F16;
+    color: #FFFFFF;
+}
+
 
 .nav-link{
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
-    margin: 20px;
-    font-weight: bold;
-
 }
+
+
 input:focus {
 
     border : 2px solid rgb(238, 36, 36) !important;
