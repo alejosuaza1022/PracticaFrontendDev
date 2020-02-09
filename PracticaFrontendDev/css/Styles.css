@@ -5,3 +5,14 @@
 li:hover{
     background: azure;
 }
+
+
+.nav-link{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.video{
+    margin-top: 250px;
+}
+
