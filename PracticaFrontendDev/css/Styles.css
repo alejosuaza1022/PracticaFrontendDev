@@ -8,3 +8,14 @@ li:hover{
 body{
         background-color: #BA0F16;
 }
+
+
+.nav-link{
+    font-size: 25px;
+    font-style: italic;
+}
+
+.video{
+    margin-top: 250px;
+}
+
