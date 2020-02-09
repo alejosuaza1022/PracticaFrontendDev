@@ -1,14 +1,7 @@
 .bg-udem{
-    background-color: #BA0F16;
+    background-color:#BA0F16;
 }
 
 li:hover{
-    background-color: #FFFFFF;
-    color: #000000;
-    border-radius: 5px;
+    background: azure;
 }
-
-.jumbotron {
-    background-image: url("/PracticaFrontendDev/images/banner.jpg");
-    background-size: cover;
-  }
