@@ -44,8 +44,8 @@ input:focus {
  
     }
 
-#video{
-    margin-top: 50px;
+.video{
+    margin-top: 75px;
 }
 
 
@@ -68,7 +68,7 @@ label {
     color: #fff;
     background-attachment: fixed;
     background-color:#222;
-background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
+    background-image: url(https://s7.postimg.org/uyf0oioaz/footer-bg.png);
     background-size: cover;
     background-position: bottom;
 }
