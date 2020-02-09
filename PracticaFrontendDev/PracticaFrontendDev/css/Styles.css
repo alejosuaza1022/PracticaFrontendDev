@@ -125,12 +125,13 @@ section{
 
 .titulo{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .info{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .contenedor-galeria{
@@ -170,8 +171,10 @@ section{
 }
 
 .galeria-imagenClick{
-    width: 600px;
-    height: 700px;
+    width: 565px;
+    height: 665px;
+    margin-top: 65px;
+
 }
 
 .btnCerrar{
@@ -186,7 +189,7 @@ section{
     text-align: center;
     padding-top: 10px;
     position: absolute;
-    top: 30px;
+    top: 70px;
     right: 30px;
     cursor: pointer;
 }
