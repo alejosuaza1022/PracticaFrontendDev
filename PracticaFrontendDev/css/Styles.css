@@ -3,19 +3,39 @@
 }
 
 li:hover{
-    background: rgb(25, 255, 255);
-}
-body{
-        background-color: #BA0F16;
-}
+    background: rgb(238, 36, 36);
+    border-radius: 10px;
+    
 
+}
 
 .nav-link{
-    font-size: 25px;
+    font-size: 15px;
     font-style: italic;
+    margin: 20px;
+    font-weight: bold;
+
 }
+input:focus {
+
+    border : 2px solid rgb(238, 36, 36) !important;
+    box-shadow: 0 0 0px !important;
+ 
+    }
 
 .video{
     margin-top: 250px;
 }
 
+input :focus{
+    background-color: aqua;
+}
+
+.formulario{
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.page{
+    background-color:rgb(253, 253, 253);
+}
