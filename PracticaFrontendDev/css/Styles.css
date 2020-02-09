@@ -3,5 +3,8 @@
 }
 
 li:hover{
-    background: azure;
+    background: rgb(25, 255, 255);
+}
+body{
+        background-color: #BA0F16;
 }
