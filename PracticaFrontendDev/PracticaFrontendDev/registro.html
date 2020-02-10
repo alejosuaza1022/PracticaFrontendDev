@@ -1,149 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/Styles.css">
-	<title>Registro</title>
+	<title>Document</title>
 </head>
+<body >
+<div class="page">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-udem">
+        <a class="navbar-brand font-weight-bold" href="#">Parciales UdeM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="container">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="Index.html">Inicio</a>
+              </li>
+      
+              <li class="nav-item">
+                <a class="nav-link" href="Parciales.html">Parciales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="registro.html">Registro</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="informacionContacto.html">Informacion y Contacto</a>
+              </li>
+            </ul>
+            </div>
+          </div>
+      </nav> 
+    <section id="banner">
+        <img src="images/banner parciales.jpg">
+    </section>
+  <div class = "formulario">
+    <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="pepe@example.com">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="ingrese algo">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, estudio, o piso">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-outline-danger">Sign in</button>
+</form>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> 
+<!-- Footer -->
+		<footer class="footer2" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+						<h5 class="mb-4 font-weight-bold">ABOUT US</h5>
+						<p class="mb-4">Etiam laoreet in ex quis efficitur.</p>
+						<ul class="f-address">
+							<li>
+								<div class="row">
+									<div class="col-1"><i class="fas fa-map-marker"></i></div>
+									<div class="col-10">
+										<h6 class="font-weight-bold mb-0">Address:</h6>
+										<p>bloque 8 salon 403, pregunta por el champe.</p>
 
-<body>
-	<div class="page">
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar2">
-			<a class="navbar-brand" href="#">Parciales UdeM</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="Index.html">Inicio</a>
-					</li>
-
-					<li class="nav-item">
-						<a class="nav-link" href="Parciales.html">Parciales</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="registro.html">Registro</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="informacionContacto.html">Informacion y Contacto</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<section id="banner">
-			<img src="images/banner parciales.jpg">
-		</section>
-		<div class="formulario">
-			<form>
-				<div class="form-row">
-					<div class="form-group col-md-6">
-						<label for="inputEmail4">Email</label>
-						<input type="email" class="form-control" id="inputEmail4" placeholder="pepe@example.com">
-					</div>
-					<div class="form-group col-md-6">
-						<label for="inputPassword4">Password</label>
-						<input type="password" class="form-control" id="inputPassword4">
-					</div>
-				</div>
-				<div class="form-group">
-					<label for="inputAddress">Address</label>
-					<input type="text" class="form-control" id="inputAddress" placeholder="ingrese algo">
-				</div>
-				<div class="form-group">
-					<label for="inputAddress2">Address 2</label>
-					<input type="text" class="form-control" id="inputAddress2"
-						placeholder="Apartmento, estudio, o piso">
-				</div>
-				<div class="form-row">
-					<div class="form-group col-md-6">
-						<label for="inputCity">City</label>
-						<input type="text" class="form-control" id="inputCity">
-					</div>
-					<div class="form-group col-md-4">
-						<label for="inputState">State</label>
-						<select id="inputState" class="form-control">
-							<option selected>Choose...</option>
-							<option>Amazonas</option>
-							<option>Antioquia</option>
-							<option>Arauca</option>
-							<option>Atlántico</option>
-							<option>Bogota DC</option>
-							<option>Bolívar</option>
-							<option>Boyacá</option>
-							<option>Caldas</option>
-							<option>Caquetá</option>
-							<option>Casanare</option>
-							<option>Cauca</option>
-							<option>Cesar</option>
-							<option>Chocó</option>
-							<option>Córdoba</option>
-							<option>Cundinamarca</option>
-							<option>Guainía</option>
-							<option>Guaviare</option>
-							<option>Huila</option>
-							<option>La Guajira</option>
-							<option>Magdalena</option>
-							<option>Meta</option>
-							<option>Nariño</option>
-							<option>Norte de Santander</option>
-							<option>Putumayo</option>
-							<option>Quindío</option>
-							<option>Risaralda</option>
-							<option>San Andrés y Providencia</option>
-							<option>Santander</option>
-							<option>Sucre</option>
-							<option>Tolima</option>
-							<option>Valle del Cauca</option>
-							<option>Vaupés</option>
-							<option>Vichada</option>
-						</select>
-					</div>
-					<div class="form-group col-md-2">
-						<label for="inputZip">Zip</label>
-						<input type="text" class="form-control" id="inputZip">
-					</div>
-				</div>
-				<div class="form-group">
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" id="gridCheck">
-						<label class="form-check-label" for="gridCheck">
-							Check me out
-						</label>
-					</div>
-				</div>
-				<button type="submit" class="btn btn-outline-danger">Sign in</button>
-			</form>
-			
-			<!-- Footer -->
-			<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-			<footer class="footer2" id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-							<h5 class="mb-4 font-weight-bold">ABOUT US</h5>
-							<p class="mb-4">Etiam laoreet in ex quis efficitur.</p>
-							<ul class="f-address">
-								<li>
-									<div class="row">
-										<div class="col-1"><i class="fas fa-map-marker"></i></div>
-										<div class="col-10">
-											<h6 class="font-weight-bold mb-0">Address:</h6>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
-										</div>
+									</div>
 								</li>
 								<li>
 									<div class="row">
 										<div class="col-1"><i class="far fa-envelope"></i></div>
 										<div class="col-10">
 											<h6 class="font-weight-bold mb-0">Have any questions?</h6>
-											<p><a href="#">Support@userthemes.com</a></p>
+											<p><a href="#">PAILA, PREGUNTELE A GOOGLE</a></p>
 										</div>
 									</div>
 								</li>
@@ -165,7 +130,7 @@
 									<div class="row">
 										<div class="col-1"><i class="fab fa-twitter"></i></div>
 										<div class="col-10">
-											<p class="mb-0"><a href="#">@userthemesrel </a> HTML Version Out Now</p>
+											<p class="mb-0"><a href="#">@Champe </a> HTML Version Out Now</p>
 											<label>10 Mins Ago</label>
 										</div>
 									</div>
@@ -174,7 +139,7 @@
 									<div class="row">
 										<div class="col-1"><i class="fab fa-twitter"></i></div>
 										<div class="col-10">
-											<p class="mb-0"><a href="#">@userthemesrel </a> HTML Version Out Now</p>
+											<p class="mb-0"><a href="#">@mamberroyGonzales </a> HTML Version Out Now</p>
 											<label>10 Mins Ago</label>
 										</div>
 									</div>
@@ -183,7 +148,16 @@
 									<div class="row">
 										<div class="col-1"><i class="fab fa-twitter"></i></div>
 										<div class="col-10">
-											<p class="mb-0"><a href="#">@userthemesrel </a> HTML Version Out Now</p>
+											<p class="mb-0"><a href="#">@JuandiMejia </a> HTML Version Out Now</p>
+											<label>10 Mins Ago</label>
+										</div>
+									</div>
+								</li>
+									<li>
+									<div class="row">
+										<div class="col-1"><i class="fab fa-twitter"></i></div>
+										<div class="col-10">
+											<p class="mb-0"><a href="#">@alejoSuaza</a> HTML Version Out Now</p>
 											<label>10 Mins Ago</label>
 										</div>
 									</div>
@@ -195,15 +169,15 @@
 							<ul class="recent-post">
 								<li>
 									<label class="mr-3">28 <br><span>APR</span></label>
-									<span>Rendomised words which dont look eveable.</span>
+									<span>sancocho gratis mañana donde tavo.</span>
 								</li>
 								<li>
 									<label class="mr-3">29 <br><span>APR</span></label>
-									<span>Rendomised words which dont look eveable.</span>
+									<span>el mamberroy dos aparece .</span>
 								</li>
 								<li>
 									<label class="mr-3">30 <br><span>APR</span></label>
-									<span>Rendomised words which dont look eveable.</span>
+									<span>piden lentejas y le traen ajiaco, donde tavo.</span>
 								</li>
 							</ul>
 						</div>
@@ -223,22 +197,19 @@
 					</div>
 				</div>
 			</footer>
-			<!-- Footer -->
-
 			<!-- Copyright -->
 			<section class="copyright">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12 ">
 							<div class="text-center text-white">
-								&copy; 2020 Equipo Los Volquetos. All Rights Reserved.
+								&copy; 2018 Your Company. All Rights Reserved.
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- Copyright -->
-
+		</div>
 		</div>
 	</div>
 </body>
