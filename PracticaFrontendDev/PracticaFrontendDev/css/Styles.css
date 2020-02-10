@@ -115,7 +115,17 @@ section{
     height: 100%;
 }
 
+#banner .contenedor-titulo{
+    position: absolute;
+    top: 18%;
+    left: 74.5%;
+    transform: translateX(-10%) translateY(10%);
+    color: #fff;
+}
 
+#banner h2{
+    font-size: 90px;
+}
 
 .titulo{
     text-align: center;
