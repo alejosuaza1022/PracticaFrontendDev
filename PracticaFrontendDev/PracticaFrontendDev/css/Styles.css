@@ -115,7 +115,39 @@ section{
     height: 100%;
 }
 
+#banner .contenedor-titulo{
+    position: absolute;
+    top: 18%;
+    left: 74.5%;
+    transform: translateX(-10%) translateY(10%);
+    color: #fff;
+}
 
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 40px;
+}
+
+table td{
+    border: 1px solid black;
+    font-size: 30px;
+}
+
+table tr:hover{
+    background: #FFA07A;
+}
+
+#tabla h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#banner h2{
+    font-size: 90px;
+}
 
 .titulo{
     text-align: center;
